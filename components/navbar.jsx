@@ -17,7 +17,7 @@ const Navbar = () => {
                 </span>
               {/* {isMobile ? "/" : "Suprr.link/"} */}
 
-              <span className='text-primary pl-1 tracking-wide'> Crypto k🔺</span>
+              <span className='text-primary pl-1 tracking-wide'> Crypto s🔺</span>
               <span className='hidden md:block mx-[2px] text-primary saturate-150 font-medium tracking-wide'>
                 {/* <TextTransition springConfig={presets.gentle}>
                   {"/" + TEXTS[index % TEXTS.length]}
