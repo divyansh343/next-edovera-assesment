@@ -1,14 +1,19 @@
 import Footer from "./footer"
+import Label from "./landing/Label"
 import Navbar from "./navbar"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <div>
-        <Navbar /> 
-        <div>
+    <div className="bg-gradient-to-r
+    from-base-300
+    via-blue-900
+    to-accent  `}" data-theme="light">
+      <Navbar />
+      <div>
         {children}
-        </div>
-        <Footer />
+      </div>
+      <Footer />
+      {/* <Label/> */}
     </div>
   )
 }
